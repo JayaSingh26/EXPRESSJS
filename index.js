@@ -8,7 +8,9 @@ app.get("/", (req, res)=>{
     res.send("<h1>Hello World</h1>")
 })
 
-
+// app.post("/",(req, res)=>{
+//     const username = req.body.name 
+// })
 
 // app.get("/Home", (req, res)=>{
 //     res.send("<h1>Home Page</h1>")
